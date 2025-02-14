@@ -1,10 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wepink</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos do Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #ff007e;
+        }
+
+        nav .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Estilos do container de texto e imagem */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .content .text {
+            width: 50%;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        .content .image {
+            width: 50%;
+        }
+
+        .content .image img {
+            width: 100%;
+        }
+
+        /* Estilos do container de cards */
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .card {
+            width: 30%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 20%;
+            object-fit: contain;
+        }
+
+        .card h3 {
+            padding: 15px;
+        }
+
+        .card p {
+            padding: 0 15px 15px 15px;
+        }
+
+        /* Estilos do rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-$END$
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">WEPINK</div>
+    <ul>
+        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiVyqa46sOLAxVLVkgAHXRjL68YABAhGgJjZQ&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiA8Lu9BhA8EiwAag16b71gSdvre2srCYCXkDMBJQ5HLuXWRA1pYqKDCxRpS7q3c-478TZasxoCAtAQAvD_BwE&ohost=www.google.com&cid=CAESVeD2kcnb2bFm7A0Wgt69YFsO-ZHrqK4T88y5V9_dTjGIWQczakvckFNVTNGhlal-7fyDlgmTr2boZHlxu7gm2jyUrKHHHQvWEEI6s95zke4CoIl0zCc&sig=AOD64_2YaXpDwBwZW04DgDhx39tDSaomsw&ctype=5&q=&ved=2ahUKEwjXwp-46sOLAxUpqZUCHQtfPHQQ9aACKAB6BAgGEBE&adurl=">Promoções</a></li>
+        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiVyqa46sOLAxVLVkgAHXRjL68YABAXGgJjZQ&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiA8Lu9BhA8EiwAag16bxtyiRPp2CS51iIUmOYsvUxP1wRxojLEf2KbW5sdpzYpov_rIX5VwxoC8QEQAvD_BwE&ohost=www.google.com&cid=CAESVeD2kcnb2bFm7A0Wgt69YFsO-ZHrqK4T88y5V9_dTjGIWQczakvckFNVTNGhlal-7fyDlgmTr2boZHlxu7gm2jyUrKHHHQvWEEI6s95zke4CoIl0zCc&sig=AOD64_3jaAfC6-FToTcnUDXzSrwR29NVpw&ctype=5&q=&ved=2ahUKEwjXwp-46sOLAxUpqZUCHQtfPHQQ9aACKAB6BAgGECQ&adurl=">Kits</a></li>
+        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiVyqa46sOLAxVLVkgAHXRjL68YABAlGgJjZQ&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiA8Lu9BhA8EiwAag16b-l9Gg1JU4bPSz9K0oUPi2YoCxpWMDNOtr1YCCMiB30QDmTIY_5tyBoCMQYQAvD_BwE&ohost=www.google.com&cid=CAESVeD2kcnb2bFm7A0Wgt69YFsO-ZHrqK4T88y5V9_dTjGIWQczakvckFNVTNGhlal-7fyDlgmTr2boZHlxu7gm2jyUrKHHHQvWEEI6s95zke4CoIl0zCc&sig=AOD64_0KYlx08YWQ3urOjjtFjhcy_YmmHg&ctype=5&q=&ved=2ahUKEwjXwp-46sOLAxUpqZUCHQtfPHQQ9aACKAB6BAgGEDo&adurl=">Perfumaria</a></li>
+        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiB6KH768OLAxXgaUgAHSN-KvIYABAQGgJjZQ&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiA8Lu9BhA8EiwAag16b4nPPEYOVhZJsOegDglk4za_cNmgUDbQcoKSoH_8wqUR9Usnpq_hmhoCxGcQAvD_BwE&ohost=www.google.com&cid=CAESVeD2SpnsVKVq8cSn2wgu5qiL4jLLhqVp4UefoOCG-vJK1TRWh1M28peqXgfx9Y2P2AaJTQz2qAY3AdSyxILDFEZKFyBJFEZDQn-Y2jLmcRoME2vlViU&sig=AOD64_33bTKmbg2Fv3MYf5Iz73-jr5hQNQ&ctype=5&q=&ved=2ahUKEwjn_pv768OLAxXfq5UCHaJKHDwQwg8oAXoECAgQCw&adurl=">Hair</a></li>
+        <li><a href="#">Troca e rastreio</a></li>
+    </ul>
+</nav>
+
+<!-- Container com metade texto e metade imagem -->
+<div class="content">
+    <div class="text">
+        <h1>Bem-vindo a WEPINK</h1>
+        <p>A WePink veio para inovar o conceito beleza e a importância do cuidado com a sua pele com uma tecnologia única! Convidamos você para conhecer e se encantar.
+        Produtos de ótima qualidade e veganos, aguardamos sua compra!! <br>
+        PROMOÇÕES ABAIXO 🩷⬇️</p>
+    </div>
+    <div class="image">
+        <img src="https://media.licdn.com/dms/image/D4D12AQEJnzwXMQOK4w/article-cover_image-shrink_600_2000/0/1691697524180?e=2147483647&v=beta&t=iyA3NvfwmWjMmaMhSf9P_XfB_41mvcaJ1twzA8vt0qg" >
+    </div>
+</div>
+
+<!-- Container com 3 cards -->
+<div class="cards">
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjcjcSh-SRFyqnoxGnQqKnub4JgxFOkqJB0A&s">
+        <h3>VF Desodorante Colônia 75 ml - Wepink</h3>
+        <p>O VF Desodorante Colônia é feito para mulheres autênticas e femininas. Descreve o perfil de uma pessoa determinada, transformadora, que vive intensamente, sem rótulos e sem medo de ser quem é.<br> Caminho olfativo: Floral Âmbar</p>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxX_9JFuLqUTygArOm2RC7ex_Lel-5WsXyw&s">
+        <h3>Red Desodorante Colônia 100ml – Wepink</h3>
+        <p>Red nasceu para despertar desejo e sofisticação por onde é transmitido, a sua fragrância radiante representa uma pessoa que atrai olhares e sempre se destaca na multidão, o verdadeiro ouro que reluz em todas as distâncias.<br>
+        Caminho olfativo: Floral Oriental</p>
+    </div>
+    <div class="card">
+        <img src="https://photos.enjoei.com.br/perfume-vf-aqua-wepink-101609729/800x800/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zNDA4NzAyMC8yOWQ2MWQzNTg2NmIyNmU4NTEwMTdlYTgxNGJjZDRmMC5qcGc">
+        <h3>VF Aqua Desodorante Colônia 75ml - Wepink</h3>
+        <p>Aqua Desodorante Colônia tem uma fragrância solar, que representa um espírito livre, ousado e brilhante. A essência de uma pessoa sem amarras, vivendo com intensidade e pronta para realizar seus próprios desejos.<BR> Caminho olfativo: Floral Frutado
+
+</p>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<footer>
+    <p>&copy; 2025 virginia@talismadigital.com.br 📩</p>
+</footer>
+
 </body>
 </html>
