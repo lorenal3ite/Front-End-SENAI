@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f556128b-9568-4b75-9e27-de3089bdcdb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Front-End-SENAI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/situacaop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="f556128b-9568-4b75-9e27-de3089bdcdb8" name="Changes" comment="wepink">
+      <change afterPath="$PROJECT_DIR$/bootstrap.py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Front-End-SENAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Front-End-SENAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lorenal3ite&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lorenal3ite/FrontSenaiWepink.git&quot;,
+    &quot;accountId&quot;: &quot;0441c79c-874b-45b5-9422-6dc735a73c9e&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -42,8 +49,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.bootstrap.py.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.situacaop.html.executor": "Run",
+    "JavaScript Debug.wepink.py.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -74,11 +83,26 @@
       <option name="presentableId" value="Default" />
       <updated>1739538978748</updated>
       <workItem from="1739538979774" duration="932000" />
-      <workItem from="1739540336328" duration="9813000" />
+      <workItem from="1739540336328" duration="10512000" />
+      <workItem from="1740048495857" duration="59000" />
+      <workItem from="1740143064574" duration="9934000" />
     </task>
+    <task id="LOCAL-00001" summary="wepink">
+      <option name="closed" value="true" />
+      <created>1739560502958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739560502958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wepink" />
+    <option name="LAST_COMMIT_MESSAGE" value="wepink" />
   </component>
 </project>
