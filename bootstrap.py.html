@@ -5,6 +5,9 @@
     <title>WePink - Beleza e Cuidado para voce</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
 </head>
 <body>
     <!-- Navbar -->
@@ -28,7 +31,7 @@
 <div class="container text-center my-5">
     <div class="row align-items-center">
         <div class="col-md-6">
-            <h1>Bem-vinda à WePink</h1>
+            <h1 id="titulo" onmousedown="textTexto()"onmouseup="reset()" onmouseover="textColor()">Bem-vinda à WePink</h1>
             <p>A WePink veio para inovar o conceito de beleza e a importância do cuidado com a sua pele com uma tecnologia única! Conheça nossos produtos veganos e de alta qualidade. Aproveite nossas promoções!
             Convidamos você para conhecer e se encantar. Produtos de ótima qualidade e veganos, aguardamos sua compra!!</p>
         </div>
@@ -47,6 +50,12 @@
                 <div class="card-body">
                     <h5 class="card-title">VF Desodorante Colônia 75 ml</h5>
                     <p class="card-text">Para mulheres autênticas e femininas.<p>Caminho olfativo: Floral Âmbar.</p>
+                    <form>
+                        <label>
+                            label
+                            <input id="input" onmouseover="testInput()">
+                        </label>
+                    </form>
                 </div>
             </div>
         </div>
@@ -81,6 +90,8 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="exemplo.js"></script>
 
 </body>
 </html>
