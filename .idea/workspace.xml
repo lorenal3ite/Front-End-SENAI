@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f556128b-9568-4b75-9e27-de3089bdcdb8" name="Changes" comment="wepink">
-      <change afterPath="$PROJECT_DIR$/exemplo.js" afterDir="false" />
+    <list default="true" id="f556128b-9568-4b75-9e27-de3089bdcdb8" name="Changes" comment="wepinkjvscpt">
+      <change afterPath="$PROJECT_DIR$/uxui/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uxui/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uxui/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.py.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/contato.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/uxui/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time.html" beforeDir="false" afterPath="$PROJECT_DIR$/time.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -44,39 +45,39 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2t28nurO0zzq4HuaAVmL1miaE64" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.bootstrap.py.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.contato.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.serviços.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.situacaop.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.sobre.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.wepink.py.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.bootstrap.py.html.executor": "Run",
+    "JavaScript Debug.contato.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.main.html.executor": "Run",
+    "JavaScript Debug.serviços.html.executor": "Run",
+    "JavaScript Debug.situacaop.html.executor": "Run",
+    "JavaScript Debug.sobre.html.executor": "Run",
+    "JavaScript Debug.wepink.py.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
-        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -95,7 +96,8 @@
       <workItem from="1740655084022" duration="437000" />
       <workItem from="1740756819688" duration="7231000" />
       <workItem from="1741258106764" duration="2599000" />
-      <workItem from="1741285108604" duration="13914000" />
+      <workItem from="1741285108604" duration="15043000" />
+      <workItem from="1758210961806" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="wepink">
       <option name="closed" value="true" />
@@ -121,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740763783474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="wepinkjvscpt">
+      <option name="closed" value="true" />
+      <created>1741357373881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741357373881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wepink" />
-    <option name="LAST_COMMIT_MESSAGE" value="wepink" />
+    <MESSAGE value="wepinkjvscpt" />
+    <option name="LAST_COMMIT_MESSAGE" value="wepinkjvscpt" />
   </component>
 </project>

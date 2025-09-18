@@ -1,0 +1,115 @@
+/* Reset útil */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Base */
+html, body {
+  height: 100%;
+  background-color: #ff72b1;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+/* Título (usa a div.titulo que já existe) */
+.titulo {
+  text-align: center;
+  padding: 22px 12px 8px;
+}
+.titulo h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Linha separadora */
+hr {
+  border: 0;
+  height: 6px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  margin-bottom: 12px;
+}
+
+/* Spinner / erro */
+#spinner { display: none; color: rgba(2, 2, 66, 0.91); margin: 8px 12px; }
+#error { color: #ff50a6; margin: 6px 12px; }
+
+/* GRID responsivo dentro do #list (apenas usando a tag existente #list) */
+#list {
+  width: 96%;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); /* menor permitido: 190px */
+  gap: 14px;
+  align-items: start;
+  padding: 8px;
+}
+
+/* Estilo genérico para cada card: qualquer elemento filho direto de #list vira card.
+   Isso permite que seu JS crie <div> ou <article> sem alterar o HTML base. */
+#list > * {
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 12px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  overflow: hidden;
+  color: #0b0b0b; /* texto escuro no interior dos cards (melhor contraste sobre o bg do card) */
+  font-size: 14px;
+}
+
+/* Hover sutil para dar feedback */
+#list > *:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.45);
+}
+
+/* Títulos e textos dentro do card (assume h4, p, img no innerHTML) */
+#list > * h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  color: #111;
+}
+#list > * p {
+  margin: 6px 0;
+  color: rgba(0,0,0,0.7);
+  line-height: 1.2;
+}
+
+/* Imagem do produto (qualquer <img> dentro do card) */
+#list > * img {
+  display: block;
+  width: 110px;
+  max-width: 70%;
+  height: auto;
+  margin: 8px auto 0;
+  object-fit: contain;
+}
+
+/* Badge estoque baixo (se você inserir com <small class="low-stock">) */
+#list > * .low-stock {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(2, 2, 66, 0.91);
+  color: #673cf8;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+/* Pequenas melhorias para telas bem pequenas */
+@media (max-width: 420px) {
+  #list { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+  #list > * { min-height: 180px; font-size: 13px; padding: 10px; }
+  #list > * img { width: 90px; }
+}
+
+/* Se quiser fixar 3 colunas em desktops bem largos */
+@media (min-width: 1100px) {
+  #list { grid-template-columns: repeat(3, 1fr); }
+}
