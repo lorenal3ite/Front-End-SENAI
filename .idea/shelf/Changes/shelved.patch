@@ -1,0 +1,136 @@
+Index: time.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html><html lang=\"pt-br\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>WePink - Beleza e Cuidado para voce</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css\" rel=\"stylesheet\">\r\n</head>\r\n<body>\r\n    <!-- Navbar -->\r\n    <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\r\n        <div class=\"container\">\r\n            <a class=\"navbar-brand\" href=\"#\"><img src=\"https://newimg.ebit.com.br/ebitBR/imagens/logo-lojas/logo_116625.gif\" width=\"15%\"   class=\"img-thumbnail\" alt=\"...\"></a>\r\n            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\">\r\n                <span class=\"navbar-toggler-icon\"></span>\r\n            </button>\r\n            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n                <ul class=\"navbar-nav ms-auto\">\r\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"http://localhost:63342/Front-End-SENAI/bootstrap.py.html?_ijt=qqjvl99k866idu6iua4d2m29tu\">Home</a></li>\r\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"sobre.html\">Sobre</a></li>\r\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"serviços.html\">Serviços</a></li>\r\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"time.html\">Time</a></li>\r\n                    <li class=\"nav-item\"><a class=\"nav-link\" href=\"contato.html\">Contato</a></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </nav>\r\n\r\n<div class=\" cards m-5 p-5 row justify-content-around\">\r\n    <div class=\"card col-3 m-3 align-items-center \">\r\n        <img src=\"https://static.vecteezy.com/ti/vetor-gratis/t1/2002297-icone-de-personagem-de-avatar-de-mulher-bonita-gratis-vetor.jpg\" alt=\"Robert\" class=\"w-75\" width=\"100px\" height=\"290px\">\r\n        <h3> <br> MARIANA LOPES</h3>\r\n\r\n    </div>\r\n    <div class=\"card col-3 m-3 align-items-center\">\r\n        <img src=\"https://img.freepik.com/vetores-premium/avatar-de-linda-mulher-loira-retrato-de-jovem-ilustracao-em-vetor_112545-3002.jpg\" alt=\"Grazi\" class=\"w-75\" width=\"100px\" height=\"290px\">\r\n        <h3> <br> ANA </h3>\r\n\r\n    </div>\r\n    <div class=\"card col-3 m-3 align-items-center\">\r\n        <img src=\"https://static.vecteezy.com/ti/vetor-gratis/p1/23431113-sorridente-face-do-uma-lindo-mulher-com-grandes-ondulado-preto-cabelo-para-avatar-social-meios-de-comunicacao-perfil-rede-imprimir-poster-adesivo-etc-plano-ilustracao-gratis-vetor.jpg\" alt=\"Sabrina\" class=\"w-75\" width=\"100px\" height=\"290px\">\r\n        <h3> <br> LORENA LEITE</h3>\r\n\r\n    </div>\r\n        <div class=\"card col-3 m-3 align-items-center \">\r\n        <img src=\"https://static.vecteezy.com/ti/vetor-gratis/p1/24183506-masculino-avatar-retrato-do-uma-jovem-loiro-cara-ilustracao-do-masculino-personagem-dentro-moderno-cor-estilo-vetor.jpg\" alt=\"Robert\" class=\"w-75\" width=\"100px\" height=\"290px\">\r\n        <h3><br>VITOR RISSI</h3>\r\n\r\n    </div>\r\n    <div class=\"card col-3 m-3 align-items-center\">\r\n        <img src=\"https://img.freepik.com/fotos-premium/um-homem-com-uma-camisa-azul-que-diz-que-esta-sorrindo_1291785-257.jpg\" alt=\"Grazi\" class=\"w-75\" width=\"100px\" height=\"290px\">\r\n        <h3> <br>BRUNO</h3>\r\n\r\n    </div>\r\n    <div class=\"card col-3 m-3 align-items-center\">\r\n        <img src=\"https://us.123rf.com/450wm/yupiramos/yupiramos1809/yupiramos180910906/107908657-design-de-ilustra%C3%A7%C3%A3o-vetorial-de-personagem-de-mulher-bonita-e-jovem.jpg?ver=6\" alt=\"Sabrina\" class=\"w-75\" width=\"100px\" height=\"290px\">\r\n        <h3><br>JULIANA</h3>\r\n\r\n    </div>\r\n</div>\r\n\r\n\r\n<footer class=\"bg-light text-center py-3\">\r\n    <a href=\"https://www.google.com/\"><i class=\"bi bi-whatsapp m-3\"></i></a>\r\n    <a href=\"https://www.wepink.com.br/?srsltid=AfmBOopIWUNkZcNWLme06u1xY4JsrZiWSzeW4v1zgBCMgUUNtX_KTM2y\"><i class=\"bi bi-cart2 m-3\"></i></a>\r\n    <a href=\"https://www.instagram.com/virginia/?hl=pt-br\"><i class=\"bi bi-instagram m-3\"></i></a>\r\n\r\n    <p>&copy; 2025 WePink - virginia@talismadigital.com.br \uD83D\uDCE9</p>\r\n</footer>\r\n\r\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js\"></script><\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/time.html b/time.html
+--- a/time.html	(revision 47c214406d274e05eefcc8fb5e916d59d7f83351)
++++ b/time.html	(date 1758213090246)
+@@ -44,12 +44,12 @@
+     </div>
+         <div class="card col-3 m-3 align-items-center ">
+         <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/24183506-masculino-avatar-retrato-do-uma-jovem-loiro-cara-ilustracao-do-masculino-personagem-dentro-moderno-cor-estilo-vetor.jpg" alt="Robert" class="w-75" width="100px" height="290px">
+-        <h3><br>VITOR RISSI</h3>
++        <h3><br>VITOR </h3>
+ 
+     </div>
+     <div class="card col-3 m-3 align-items-center">
+         <img src="https://img.freepik.com/fotos-premium/um-homem-com-uma-camisa-azul-que-diz-que-esta-sorrindo_1291785-257.jpg" alt="Grazi" class="w-75" width="100px" height="290px">
+-        <h3> <br>BRUNO</h3>
++        <h3> <br>YURI</h3>
+ 
+     </div>
+     <div class="card col-3 m-3 align-items-center">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f556128b-9568-4b75-9e27-de3089bdcdb8\" name=\"Changes\" comment=\"wepinkjvscpt\">\r\n      <change afterPath=\"$PROJECT_DIR$/uxui/main.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/uxui/main.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/uxui/style.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/uxui/README.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/time.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/time.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;lorenal3ite&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/lorenal3ite/Front-End-SENAI.git&quot;,\r\n    &quot;accountId&quot;: &quot;0441c79c-874b-45b5-9422-6dc735a73c9e&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2t28nurO0zzq4HuaAVmL1miaE64\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"JavaScript Debug.bootstrap.py.html.executor\": \"Run\",\r\n    \"JavaScript Debug.contato.html.executor\": \"Run\",\r\n    \"JavaScript Debug.index.html.executor\": \"Run\",\r\n    \"JavaScript Debug.main.html.executor\": \"Run\",\r\n    \"JavaScript Debug.serviços.html.executor\": \"Run\",\r\n    \"JavaScript Debug.situacaop.html.executor\": \"Run\",\r\n    \"JavaScript Debug.sobre.html.executor\": \"Run\",\r\n    \"JavaScript Debug.wepink.py.html.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"list.type.of.created.stylesheet\": \"CSS\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90\" />\r\n        <option value=\"bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f556128b-9568-4b75-9e27-de3089bdcdb8\" name=\"Changes\" comment=\"\" />\r\n      <created>1739538978748</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1739538978748</updated>\r\n      <workItem from=\"1739538979774\" duration=\"932000\" />\r\n      <workItem from=\"1739540336328\" duration=\"10512000\" />\r\n      <workItem from=\"1740048495857\" duration=\"59000\" />\r\n      <workItem from=\"1740143064574\" duration=\"10293000\" />\r\n      <workItem from=\"1740655084022\" duration=\"437000\" />\r\n      <workItem from=\"1740756819688\" duration=\"7231000\" />\r\n      <workItem from=\"1741258106764\" duration=\"2599000\" />\r\n      <workItem from=\"1741285108604\" duration=\"15043000\" />\r\n      <workItem from=\"1758210961806\" duration=\"1574000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"wepink\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1739560502958</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1739560502958</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"wepink\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1740163239453</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1740163239453</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"wepink\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1740763783474</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1740763783474</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"wepinkjvscpt\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741357373881</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741357373881</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"wepink\" />\r\n    <MESSAGE value=\"wepinkjvscpt\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"wepinkjvscpt\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 47c214406d274e05eefcc8fb5e916d59d7f83351)
++++ b/.idea/workspace.xml	(date 1758213393073)
+@@ -4,12 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f556128b-9568-4b75-9e27-de3089bdcdb8" name="Changes" comment="wepinkjvscpt">
+-      <change afterPath="$PROJECT_DIR$/uxui/main.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/uxui/main.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/uxui/style.css" afterDir="false" />
++    <list default="true" id="f556128b-9568-4b75-9e27-de3089bdcdb8" name="Changes" comment="cards - ui e ux">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/uxui/README.md" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/time.html" beforeDir="false" afterPath="$PROJECT_DIR$/time.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -60,6 +56,7 @@
+     "JavaScript Debug.situacaop.html.executor": "Run",
+     "JavaScript Debug.sobre.html.executor": "Run",
+     "JavaScript Debug.wepink.py.html.executor": "Run",
++    "Node.js.main.js.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+     "git-widget-placeholder": "master",
+@@ -73,6 +70,16 @@
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\senai_24_25\PycharmProjects\PythonProject\Front-End-SENAI\uxui" />
++    </key>
++  </component>
++  <component name="RunManager">
++    <configuration name="main.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/main.js" working-dir="$PROJECT_DIR$/web">
++      <method v="2" />
++    </configuration>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -97,7 +104,7 @@
+       <workItem from="1740756819688" duration="7231000" />
+       <workItem from="1741258106764" duration="2599000" />
+       <workItem from="1741285108604" duration="15043000" />
+-      <workItem from="1758210961806" duration="1574000" />
++      <workItem from="1758210961806" duration="2401000" />
+     </task>
+     <task id="LOCAL-00001" summary="wepink">
+       <option name="closed" value="true" />
+@@ -131,7 +138,39 @@
+       <option name="project" value="LOCAL" />
+       <updated>1741357373881</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="wepinkjvscpt">
++      <option name="closed" value="true" />
++      <created>1758212566934</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1758212566934</updated>
++    </task>
++    <task id="LOCAL-00006" summary="wepinkjvscpt">
++      <option name="closed" value="true" />
++      <created>1758212807359</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1758212807359</updated>
++    </task>
++    <task id="LOCAL-00007" summary="wepinkjvscpt">
++      <option name="closed" value="true" />
++      <created>1758213170981</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1758213170981</updated>
++    </task>
++    <task id="LOCAL-00008" summary="cards - ui e ux">
++      <option name="closed" value="true" />
++      <created>1758213334108</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1758213334108</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -139,7 +178,9 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="wepink" />
++    <MESSAGE value="cards" />
+     <MESSAGE value="wepinkjvscpt" />
+-    <option name="LAST_COMMIT_MESSAGE" value="wepinkjvscpt" />
++    <MESSAGE value="cards - ui e ux" />
++    <option name="LAST_COMMIT_MESSAGE" value="cards - ui e ux" />
+   </component>
+ </project>
+\ No newline at end of file
