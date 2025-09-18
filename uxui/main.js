@@ -216,7 +216,7 @@ async function getProducts() {
     renderPosts(data);
   } catch (err) {
     showError(err.message || 'Falha ao buscar dados');
-    $list.innerHTML = ''; // limpa possíveis skeletons
+    $list.innerHTML = '';
   } finally {
     showSpinner(false);
   }
